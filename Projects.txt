@@ -1,1 +1,16 @@
+1. Semantic Search 
+SemanticSearch is a full-stack semantic search application that allows users to upload a pdf and perform intelligent, context-aware searches on the content of the pdf. Users can receive the response to their prompt and also be able to see where in the pdf the prompt related content is mentioned as it will highlight the areas related to the prompt. 
+
+2. Spoken Digit Prediction
+In this project I developed a machine learning model capable of predicting digits spoken in audio files. The project utilizes the free-spoken-digit-dataset from Jakobovski's GitHub repository, specifically designed for ease of use as the audio equivalent of the MNIST dataset for handwritten digit recognition. The audio files in the dataset were short sound clips, each under one second in duration. Two model architectures were experimented with: a Feedforward Multi-Layer Perceptron (MLP) and a Convolutional Neural Network (CNN). Both models use spectrogram images of audio files as input. 
+
+3. BarCode and Grid Art Generator
+Developed a Python implementation that converts high-resolution images into simplified barcode and grid art representations. The goal was to downsample digital images to create visually appealing and easy-to-recreate designs, using only black and white elements. These outputs are scaled appropriately so they can be manually recreated on paper or a standard-sized canvas. The tool first processes images by reducing their resolution and simplifying pixel data, and then it translates this simplified data into barcode-like or grid-based patterns. The resulting output serves as a gateway to create BarCode art or Grid Art on a canvas. 
+
+4.Solar System 3D with OpenGL
+In this project, I created an interactive 3D simulation of the Solar System. The Sun and planets are displayed as 3D objects, with each planet's movement and characteristics like size, speed, and rotation modeled accurately. The planets revolve around the Sun and spin on their own axes, creating a dynamic and realistic simulation of their orbits. The user can explore the Solar System by moving the camera around using keyboard controls. The view can be adjusted, allowing for a flexible perspective as if navigating through space. To add an extra layer of immersion, a jet-like sound effect plays whenever the user moves the camera, creating a sense of traveling through the vastness of space.
+
+5.MQTT-Based Remote Alert System
+In this project, I developed a remote notification system using two Raspberry Pi devices and the MQTT protocol. One Raspberry Pi acts as a sensor monitor, while the other controls a physical switch. Whenever the state of the switch changes, an MQTT message is sent to the second Pi, triggering a response. The notification Pi receives these messages and manages an LED board, with a red LED indicating an alert (switch pressed) and a blue LED showing normal operation (switch not pressed). This system provides an efficient way to monitor and visually display the status of remote systems in real-time. It combines simple hardware and communication protocols to create a wireless monitoring solution.
+
 
