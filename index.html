@@ -41,11 +41,11 @@
       
     }
 
-    .sds, .dotd, .lwlt, .mathlab {
+    .sds, .dotd, .lwlt, .mathlab{
       margin-bottom: 20px;
     }
 
-    .sds,.lwtl{
+    .sds-prj,.lwtl {
  border: 1px solid black;
 }
 
@@ -120,6 +120,7 @@
           <h3>Education</h3>
           <p>SOUTHEASTERN UNIVERSITY, HAMMOND, LA</p>
           <p>Masters of Science in Integrated Science and Technology, August 2024 - Present</p>
+          <br>
           <p>LOUISIANA TECH UNIVERSITY, RUSTON, LA</p>
           <p>Bachelor of Science in Mechanical Engineering, November 2021</p>
           <p>Minor in Mathematics</p>
@@ -135,31 +136,12 @@ Flagger/Traffic Control Tech/Supervisor
         </div>
         <div class="sub-section">
           <h3>Experience</h3>
-          <section>
+          <section class="sds">
             <h4>Sustainable Design Solutions LLC, Baton Rouge LA</h4>    
             <p>March 2022- February 2024</p>
             <i>Project Engineer</i>
-            <div class="sds">
-              <p>Annual Storm Water Concrete Lined Canal Repair Project</p>
-              <p>The city’s annual project to construct concrete panels and sidewalks to repair revetments and ensure the functionality of floodways and channels.</p>
-              <p>Responsibilities: Project Identification, Estimation, Work order preparation, Inspection to ensure adherence to standard specifications for public work construction</p>
-              <hr>
-              <p>Ben Hur Realignment/Nicholson Intersection Project</p>
-              <p>MOVEBR project that involved construction of a 0.37-mile road segment to eliminate skewed intersection.</p>
-              <p>Responsibilities: Site activity documentation and Inspection to ensure design standards are met</p>
-              <hr>
-              <p>ARP Roadside Drainage Repair Project</p>
-              <p>This project consists of addressing stormwater conveyance issues and conducting repairs to maintain efficient routes, ensuring the prevention of flooding, in response to residents’ requests.</p>
-              <p>Responsibilities: Site visit for condition assessment, stormwater drainage structures mapping, work order preparation, and crew deployment</p>
-              <hr>
-              <p>Department of Environmental Services- Construction Site Inspection</p>
-              <p>Conduct weekly inspections of multiple commercial construction sites within the City of Baton Rouge to ensure adherence to the Stormwater Pollution Prevention Plan</p>
-              <hr>
-              <p>ARP Channel Clearing Project</p>
-              <p>City’s annual project to maintain stormwater drainage ways, this project focuses on clearing debris, vegetation, and rubble from floodways and channels to minimize flood damages and ensure effective stormwater management</p>
-              <p>Responsibilities: Channel mapping, Work order drafting, Inspection</p>
-            </div>
-          </section>
+            </section>
+            
           <section class="dotd">
             <h4>Louisiana Department of Transportation, Ruston LA</h4>                                     
             <p>June 2021- August 2021</p>
@@ -215,6 +197,52 @@ Flagger/Traffic Control Tech/Supervisor
       <h2>Selected Projects</h2>
       <button class="dropdown-btn">View</button>
       <div class="sub-sections">
+        <div class="sub-section">
+      <h3>Semantic Search</h3>
+      <p>This is a full-stack semantic search application that allows users to upload a pdf and perform intelligent, context-aware searches on the content of the pdf. Users can receive the response to their prompt and also be able to see where in the pdf the prompt related content is mentioned, as it will highlight the areas related to the prompt.</p>
+    </div>
+
+    <div class="sub-section">
+      <h3>Spoken Digit Prediction</h3>
+      <p>In this project, I developed a machine learning model capable of predicting digits spoken in audio files. The project utilizes the free-spoken-digit-dataset from Jakobovski's GitHub repository, specifically designed for ease of use as the audio equivalent of the MNIST dataset for handwritten digit recognition. The audio files in the dataset were short sound clips, each under one second in duration. Two model architectures were experimented with: a Feedforward Multi-Layer Perceptron (MLP) and a Convolutional Neural Network (CNN). Both models use spectrogram images of audio files as input.</p>
+    </div>
+    
+    <div class="sub-section">
+      <h3>BarCode and Grid Art Generator</h3>
+      <p>Developed a Python implementation that converts high-resolution images into simplified barcode and grid art representations. The goal was to downsample digital images to create visually appealing and easy-to-recreate designs, using only black and white elements. The tool processes images by reducing their resolution, simplifying pixel data, and then translating this into barcode-like or grid-based patterns for manual recreation on paper or canvas.</p>
+    </div>
+    
+    <div class="sub-section">
+      <h3>Solar System 3D with OpenGL</h3>
+      <p>In this project, I created an interactive 3D simulation of the Solar System. The Sun and planets are displayed as 3D objects, with each planet's movement and characteristics like size, speed, and rotation modeled accurately. The planets revolve around the Sun and spin on their own axes, creating a dynamic and realistic simulation. The user can explore the Solar System by moving the camera around using keyboard controls, and the experience is enhanced with jet-like sound effects.</p>
+    </div>
+    
+    <div class="sub-section">
+      <h3>MQTT-Based Remote Alert System</h3>
+      <p>In this project, I developed a remote notification system using two Raspberry Pi devices and the MQTT protocol. One Raspberry Pi acts as a sensor monitor, while the other controls a physical switch. Whenever the state of the switch changes, an MQTT message is sent to the second Pi, triggering a response. The notification Pi manages an LED board, with a red LED indicating an alert (switch pressed) and a blue LED showing normal operation (switch not pressed). This system provides an efficient wireless monitoring solution.</p>
+    </div>
+        
+        <div class="sds-prj">
+              <p>Annual Storm Water Concrete Lined Canal Repair Project</p>
+              <p>The city’s annual project to construct concrete panels and sidewalks to repair revetments and ensure the functionality of floodways and channels.</p>
+              <p>Responsibilities: Project Identification, Estimation, Work order preparation, Inspection to ensure adherence to standard specifications for public work construction</p>
+              <hr>
+              <p>Ben Hur Realignment/Nicholson Intersection Project</p>
+              <p>MOVEBR project that involved construction of a 0.37-mile road segment to eliminate skewed intersection.</p>
+              <p>Responsibilities: Site activity documentation and Inspection to ensure design standards are met</p>
+              <hr>
+              <p>ARP Roadside Drainage Repair Project</p>
+              <p>This project consists of addressing stormwater conveyance issues and conducting repairs to maintain efficient routes, ensuring the prevention of flooding, in response to residents’ requests.</p>
+              <p>Responsibilities: Site visit for condition assessment, stormwater drainage structures mapping, work order preparation, and crew deployment</p>
+              <hr>
+              <p>Department of Environmental Services- Construction Site Inspection</p>
+              <p>Conduct weekly inspections of multiple commercial construction sites within the City of Baton Rouge to ensure adherence to the Stormwater Pollution Prevention Plan</p>
+              <hr>
+              <p>ARP Channel Clearing Project</p>
+              <p>City’s annual project to maintain stormwater drainage ways, this project focuses on clearing debris, vegetation, and rubble from floodways and channels to minimize flood damages and ensure effective stormwater management</p>
+              <p>Responsibilities: Channel mapping, Work order drafting, Inspection</p>
+            </div>
+          </section>
         <div class="sub-section">
           <h3> 
             Zero Emission Gas Well</h3><p> Spring 2021-Fall 2021</p>
